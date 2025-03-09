@@ -78,7 +78,7 @@ footer a {
 }
 
 article {
-    width: 34%;
+    width: 12%;
     height: 360px;
     border: 1px solid #000000;
     text-align: center;
@@ -98,7 +98,7 @@ article img {
 }
 
 section { 
-    width: 1500px;
+    width: 140px;
     background-color: white;
     flex-wrap: wrap;
     display: flex;
