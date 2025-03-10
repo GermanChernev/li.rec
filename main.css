@@ -98,7 +98,6 @@ article img {
 }
 
 section { 
-    width: 2000px;
     background-color: white;
     flex-wrap: wrap;
     display: flex;
