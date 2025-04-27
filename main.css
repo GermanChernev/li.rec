@@ -47,7 +47,7 @@ h2 {
 header p{
     width: 301px;
     height: 90px;
-    background: #6200ff;
+    background: #fff;
     border: 1px solid grey;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 35px;
@@ -113,8 +113,13 @@ article {
     margin: 18px;
 }
 article a {
-
+    
     padding-top: 20px;
+}
+
+article a:hover{
+    padding-top: 20px;
+    color: #fff;
 }
 
 article img {
