@@ -3,6 +3,7 @@ body {
     border: solid black 1PX;
     border-radius: 37px;
 }
+}
 header img {
     width: 40px;
     height: 40px;
@@ -11,6 +12,19 @@ header img {
 }
 header {
     background-color: #700070;
+    margin: 0 auto;
+    text-align: center;
+    float: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 35px;
+    position: fixed;
+    top: 1px;
+    width:100%;
+}
+
+header:hover{
+    background-color: black;
     margin: 0 auto;
     text-align: center;
     float: center;
@@ -26,6 +40,7 @@ h1 {
 }
 
 h2 {
+    background-color: #6200ff;
     color: blueviolet;
     font-size: 30px;
 }
@@ -33,8 +48,8 @@ h2 {
 header p{
     width: 301px;
     height: 90px;
-    background: #550272;
-    border: 1px solid #000000;
+    background: #fff;
+    border: 1px solid grey;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 35px;
     text-align: center;
@@ -42,6 +57,25 @@ header p{
     font-size: 60px;
     margin: 5px;
     padding: 5px;
+}
+
+header p:hover{
+    width: 301px;
+    height: 90px;
+    background: #fff;
+    border: 1px solid grey;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 35px;
+    text-align: center;
+    justify-content: center;
+    font-size: 60px;
+    margin: 5px;
+    padding: 5px;
+}
+
+h2 {
+    color: blueviolet;
+    font-size: 30px;
 }
 
 nav {
