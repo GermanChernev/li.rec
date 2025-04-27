@@ -119,7 +119,7 @@ article a {
 
 article a:hover{
     padding-top: 20px;
-    color: #fff;
+    color: #000;
 }
 
 article img {
@@ -134,5 +134,5 @@ section {
     flex-wrap: wrap;
     display: flex;
     border-radius: 40px;
-    margin-top: 145px;
+    margin-top: 135px;
 }
