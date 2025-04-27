@@ -19,6 +19,7 @@ header {
     border-radius: 35px;
     position: fixed;
     top: 1px;
+    left:100%;
 }
 
 header:hover{
