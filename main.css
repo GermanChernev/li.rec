@@ -115,4 +115,5 @@ section {
     flex-wrap: wrap;
     display: flex;
     border-radius: 40px;
+    margin-top: 100px;
 }
