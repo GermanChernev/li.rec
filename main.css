@@ -17,6 +17,18 @@ header {
     display: flex;
     justify-content: center;
     border-radius: 35px;
+    position: fixed;
+    top: 1px;
+}
+
+header:hover{
+    background-color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    float: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 35px;
 }
 
 h1 {
